@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 11px;
+}
+.top{
+    background-color: #e5f5f4;
+    width: 100%;
+    height:71px;
+    display: flex;
+}
+.icon{
+    margin-left: 220px;
+}
+.ST{
+    width: 274px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+.search{
+    overflow: hidden;
+    border:1px solid #2eab8e;
+    border-radius: 5px;
+    width: 100%;
+    height:24px;
+    display: flex;
+}
+.inputBox{
+    position: relative;
+    outline: none;
+    border: none;
+    width: 239px;
+    height: 100%;
+    padding-left: 6px;
+}
+.sBox{
+    border: none;
+    width: 35px;
+    height: 100%;
+    background-color: #2eab8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sButton{
+    width: 12px;
+    height: 14px;
+    background: url(spirit.png);
+    background-position: -19px -1px;
+    background-size:cover;
+}
+.tip{
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 5px; 
+    color:#999999;
+    display: flex;
+}
+.tri{
+    margin: 4.5px 4px;
+    border: 3.5px solid transparent;   
+    border-top: 6px solid #999999;
+}
+.top .split{
+    display: inline-block;
+    width: 338px;
+}
+.user{
+    margin-top: 28px;
+    color:#999999;
+}
+.place{
+    width: 276px;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.addr{
+    width: 8px;
+    height: 11px;
+    background: url(spirit.png);
+    background-position: 0px -25px;
+    background-size: cover;
+}
+.other{
+    font-size: 11px;
+    text-align: end;
+}
+.wrapper{
+    background-color: #2eab8e;
+    width: 100%;
+    height: 44px;
+}
+.nav{
+    height: 100%;
+    margin-left: 220px;
+    display: flex;
+}
+.tag{
+    width: 102px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 546;
+    color:#ffffff;
+    text-align: center;
+    line-height: 44px;
+    overflow: hidden;
+}
+.tag:hover{
+    background-color: #0b696f;
+}
+.banner{
+    background: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 449px;
+    display: flex;
+}
+.table{
+    overflow: hidden;
+    width: 412px;
+    height: 338px;
+    background-color: #ffffff;
+    margin: 54px 220px;
+    display: flex;
+}
+.altBox{
+    width: 102px;
+    height: 100%;
+}
+.alts{
+    width: 100%;
+    height: 47px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 546;
+    background-color: #84ccc9;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel{
+    width: 12px;
+    height: 14px;
+    background: url(spirit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -58px -0px;
+}
+.plane{
+    width: 12px;
+    height: 14px;
+    background: url(spirit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -31px -0px;
+}
+.travel{
+    width: 12px;
+    height: 14px;
+    background: url(spirit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -45px -0px;
+}
+.ticket{
+    width: 13px;
+    height: 14px;
+    background: url(spirit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -5.6px -0px;
+}
+.alts:hover{
+    color: #0a6678;
+    background-color: #3dbdb0;
+}
+.blank{
+    width: 100%;
+    height: 150px;
+    margin-top: 1px;
+    background-color: #84ccc9;
+}
+.vline{
+    width: 1px;
+    height: 100%;
+    background-color: #0a6678; 
+}
+.cont{
+    width: 309px;
+    height: 100%;
+}
+.info{
+    font-size: 11px;
+}
+.info_wake{
+    font-size: 11px;
+}
+.conttitle{
+    position: relative;
+    height: 47px;
+    width: 279px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.select{
+    overflow: hidden;
+    width: 59px;
+    height: 47px;
+    margin-right: 21px;
+    text-align: left;
+    line-height: 47px;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 546;
+}
+.select:hover{
+    color: #0a6678;
+}
+.hline{
+    height: 2px;
+    width: 279px;
+    margin: 0 auto;
+    background-color: #0a6678;
+}
+.detail{
+    width: 279px;
+    height: 289px;
+    color: #999999;
+    margin: 11px auto 0 auto;
+}
+.info{
+    align-items: stretch;
+    width: 100%;
+    height: 20%;
+}
+.info_wake{
+    height:100%;
+    display: inline-block;
+}
+.detail .split{
+    width: 30px;
+    display: inline-block;
+}
+.banner input{
+    outline: none;
+    padding-left: 6px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    height: 21px;
+    margin-top: 6px;
+}
+.city{
+    width: 100%;
+}
+.s_in
+{
+    width: 110px;
+}
+.find{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.go{
+    border-radius: 5px;
+    color: #ffffff;
+    overflow: hidden;
+    width: 82px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
+    font-size: 15px;
+    font-weight: 546;
+    background-color: #f47c53
+}
+.bottom{
+    padding-top: 21px;
+    background-color: #0f6f5c;
+    color: #dddddd;
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}
+span{
+    color: #f38662;
+    font-size: 11px;
+}
